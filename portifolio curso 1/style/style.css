@@ -1,0 +1,121 @@
+@import 
+url("https://fonts.googleapis.com/css2?family=Lugrasimo&family=Permanent+Marker&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: "Lugrasimo", cursive;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__navegacao {
+    display: flex ;
+    gap : 10%;
+    
+}
+
+
+
+.cabecalho__menu__link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #2297db;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6% 8%;
+
+}
+
+.apresentacao__conteudo {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.apresentacao__conteudo__titulo {
+
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    
+}
+
+.destaque {
+   color: #2297db;
+   font-family: "Lugrasimo", cursive;
+   font-size: 15px;
+   display: flex;
+   flex-flow: column wrap;
+
+}
+
+/* imagem */
+.apresentacao__imagem {
+    max-width: 30%;
+    height: auto;
+    border-radius: 30%;
+}
+/* link */
+.apresentacao__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 5px;
+
+}
+
+.link {
+   /*background-color: rgb(0, 0, 0);*/
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   border: 2px solid #2297db;
+   text-align: center;
+   border-radius: 10px;
+   font-size: 24px;
+   font-weight: 600;
+   padding: 20px 50px;
+   text-decoration: none;
+   color: #3f63c7; 
+   font-family: "Edu NSW ACT Hand Pre", cursive;
+}
+
+.link:hover {
+    background-color: #2297db;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.link:active {
+    transform: scale(0.9);
+}
+
+.rodape {
+    color: #2297db;
+    background-color: black;
+    text-align: center;
+    
+}
